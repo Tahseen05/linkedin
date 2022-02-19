@@ -1,0 +1,218 @@
+[
+  {
+    "source": "^: sign in$",
+    "steps": [
+      {
+        "name": ": sign in",
+        "aggregatedDurations": {
+          "average": 26.183238,
+          "median": 26.183238
+        },
+        "durations": [
+          {
+            "duration": 26.183238,
+            "location": "feature.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: enter password$",
+    "steps": [
+      {
+        "name": ": enter password",
+        "aggregatedDurations": {
+          "average": 3.1890442,
+          "median": 3.1890442
+        },
+        "durations": [
+          {
+            "duration": 3.1890442,
+            "location": "feature.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: open connection url$",
+    "steps": [
+      {
+        "name": ": open connection url",
+        "aggregatedDurations": {
+          "average": 11.787939,
+          "median": 11.787939
+        },
+        "durations": [
+          {
+            "duration": 11.787939,
+            "location": "feature.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: write data$",
+    "steps": [
+      {
+        "name": ": write data",
+        "aggregatedDurations": {
+          "average": 0.2626392,
+          "median": 0.2626392
+        },
+        "durations": [
+          {
+            "duration": 0.2626392,
+            "location": "feature.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: get connections url$",
+    "steps": [
+      {
+        "name": ": get connections url",
+        "aggregatedDurations": {
+          "average": 6.2420338,
+          "median": 6.2420338
+        },
+        "durations": [
+          {
+            "duration": 6.2420338,
+            "location": "feature.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: click on connections$",
+    "steps": [
+      {
+        "name": ": click on connections",
+        "aggregatedDurations": {
+          "average": 5.1762209,
+          "median": 5.1762209
+        },
+        "durations": [
+          {
+            "duration": 5.1762209,
+            "location": "feature.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: read designation$",
+    "steps": [
+      {
+        "name": ": read designation",
+        "aggregatedDurations": {
+          "average": 0.0749621,
+          "median": 0.0749621
+        },
+        "durations": [
+          {
+            "duration": 0.0749621,
+            "location": "feature.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: read company$",
+    "steps": [
+      {
+        "name": ": read company",
+        "aggregatedDurations": {
+          "average": 0.0469467,
+          "median": 0.0469467
+        },
+        "durations": [
+          {
+            "duration": 0.0469467,
+            "location": "feature.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: open url$",
+    "steps": [
+      {
+        "name": ": open url",
+        "aggregatedDurations": {
+          "average": 16.4207923,
+          "median": 16.4207923
+        },
+        "durations": [
+          {
+            "duration": 16.4207923,
+            "location": "feature.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: enter username$",
+    "steps": [
+      {
+        "name": ": enter username",
+        "aggregatedDurations": {
+          "average": 4.0265439,
+          "median": 4.0265439
+        },
+        "durations": [
+          {
+            "duration": 4.0265439,
+            "location": "feature.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: read name$",
+    "steps": [
+      {
+        "name": ": read name",
+        "aggregatedDurations": {
+          "average": 0.2771694,
+          "median": 0.2771694
+        },
+        "durations": [
+          {
+            "duration": 0.2771694,
+            "location": "feature.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^: open new tab$",
+    "steps": [
+      {
+        "name": ": open new tab",
+        "aggregatedDurations": {
+          "average": 3.25317,
+          "median": 3.25317
+        },
+        "durations": [
+          {
+            "duration": 3.25317,
+            "location": "feature.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

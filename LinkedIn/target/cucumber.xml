@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="76.940699">
+    <testcase classname="To get connections details" name="to login into linked in account" time="49.819618">
+        <system-out>
+            <![CDATA[Given : open url............................................................passed
+Then : enter username.......................................................passed
+Then : enter password.......................................................passed
+And : sign in...............................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To get connections details" name="go to connections" time="20.21733">
+        <system-out>
+            <![CDATA[Given : open new tab........................................................passed
+Then : open connection url..................................................passed
+Then : click on connections.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To get connections details" name="to fetch coonections details" time="6.903751">
+        <system-out>
+            <![CDATA[Given : get connections url.................................................passed
+Then : read name............................................................passed
+Then : read designation.....................................................passed
+Then : read company.........................................................passed
+Then : write data...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

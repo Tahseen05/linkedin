@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "to login into linked in account",
+        "description": "",
+        "id": "to-get-connections-details;to-login-into-linked-in-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16420792300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": open url",
+            "match": {
+              "location": "Login.open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4026543900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": enter username",
+            "match": {
+              "location": "Login.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3189044200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": enter password",
+            "match": {
+              "location": "Login.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26183238000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": sign in",
+            "match": {
+              "location": "Login.sign_in()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "go to connections",
+        "description": "",
+        "id": "to-get-connections-details;go-to-connections",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3253170000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": open new tab",
+            "match": {
+              "location": "Connections.open_new_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11787939000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": open connection url",
+            "match": {
+              "location": "Connections.open_connection_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5176220900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": click on connections",
+            "match": {
+              "location": "Connections.click_on_connections()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Connections"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "to fetch coonections details",
+        "description": "",
+        "id": "to-get-connections-details;to-fetch-coonections-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6242033800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": get connections url",
+            "match": {
+              "location": "Connections.get_connections_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277169400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": read name",
+            "match": {
+              "location": "Connections.read_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74962100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": read designation",
+            "match": {
+              "location": "Connections.read_designation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46946700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": read company",
+            "match": {
+              "location": "Connections.read_company()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 262639200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": write data",
+            "match": {
+              "location": "Connections.write_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Fetch_Data"
+          }
+        ]
+      }
+    ],
+    "name": "To get connections details",
+    "description": "",
+    "id": "to-get-connections-details",
+    "keyword": "Feature",
+    "uri": "feature.feature"
+  }
+]
